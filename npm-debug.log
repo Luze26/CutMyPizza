@@ -1,0 +1,112 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'C:\\Users\\Ya\\Documents\\GitHub\\SplitZa',
+6 verbose install   [ 'gulp',
+6 verbose install     'gulp-livereload',
+6 verbose install     'gulp-plumber',
+6 verbose install     'inherits',
+6 verbose install     'tast',
+6 verbose install     'ansi-regex',
+6 verbose install     'readable-stream' ] ]
+7 info preinstall SplitZa@1.0.0
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping gulp@^3.8.8 C:\Users\Ya\Documents\GitHub\SplitZa
+10 verbose already installed skipping gulp-livereload@* C:\Users\Ya\Documents\GitHub\SplitZa
+11 verbose already installed skipping gulp-plumber@* C:\Users\Ya\Documents\GitHub\SplitZa
+12 verbose already installed skipping inherits@* C:\Users\Ya\Documents\GitHub\SplitZa
+13 verbose cache add [ 'tast@*', null ]
+14 verbose cache add name=undefined spec="tast@*" args=["tast@*",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'tast@*',
+15 verbose parsed url   path: 'tast@*',
+15 verbose parsed url   href: 'tast@*' }
+16 verbose already installed skipping ansi-regex@* C:\Users\Ya\Documents\GitHub\SplitZa
+17 verbose already installed skipping readable-stream@* C:\Users\Ya\Documents\GitHub\SplitZa
+18 verbose cache add name="tast" spec="*" args=["tast","*"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '*',
+19 verbose parsed url   path: '*',
+19 verbose parsed url   href: '*' }
+20 verbose addNamed [ 'tast', '*' ]
+21 verbose addNamed [ null, '*' ]
+22 silly lockFile 33279d3f-tast tast@*
+23 verbose lock tast@* C:\Users\Ya\AppData\Roaming\npm-cache\33279d3f-tast.lock
+24 silly addNameRange { name: 'tast', range: '*', hasData: false }
+25 verbose request where is /tast
+26 verbose request registry https://registry.npmjs.org/
+27 verbose request id 2effe53d448f061b
+28 verbose url raw /tast
+29 verbose url resolving [ 'https://registry.npmjs.org/', './tast' ]
+30 verbose url resolved https://registry.npmjs.org/tast
+31 verbose request where is https://registry.npmjs.org/tast
+32 info trying registry request attempt 1 at 00:19:33
+33 http GET https://registry.npmjs.org/tast
+34 http 404 https://registry.npmjs.org/tast
+35 verbose headers { date: 'Thu, 23 Apr 2015 22:19:30 GMT',
+35 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+35 verbose headers   'content-type': 'application/json',
+35 verbose headers   'cache-control': 'max-age=0',
+35 verbose headers   'content-length': '51',
+35 verbose headers   'accept-ranges': 'bytes',
+35 verbose headers   via: '1.1 varnish',
+35 verbose headers   age: '0',
+35 verbose headers   'x-served-by': 'cache-ams4133-AMS',
+35 verbose headers   'x-cache': 'MISS',
+35 verbose headers   'x-cache-hits': '0',
+35 verbose headers   'x-timer': 'S1429827569.998886,VS0,VE400',
+35 verbose headers   'keep-alive': 'timeout=10, max=50',
+35 verbose headers   connection: 'Keep-Alive' }
+36 silly registry.get cb [ 404,
+36 silly registry.get   { date: 'Thu, 23 Apr 2015 22:19:30 GMT',
+36 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+36 silly registry.get     'content-type': 'application/json',
+36 silly registry.get     'cache-control': 'max-age=0',
+36 silly registry.get     'content-length': '51',
+36 silly registry.get     'accept-ranges': 'bytes',
+36 silly registry.get     via: '1.1 varnish',
+36 silly registry.get     age: '0',
+36 silly registry.get     'x-served-by': 'cache-ams4133-AMS',
+36 silly registry.get     'x-cache': 'MISS',
+36 silly registry.get     'x-cache-hits': '0',
+36 silly registry.get     'x-timer': 'S1429827569.998886,VS0,VE400',
+36 silly registry.get     'keep-alive': 'timeout=10, max=50',
+36 silly registry.get     connection: 'Keep-Alive' } ]
+37 silly lockFile 33279d3f-tast tast@*
+38 silly lockFile 33279d3f-tast tast@*
+39 error 404 404 Not Found: tast
+39 error 404
+39 error 404 'tast' is not in the npm registry.
+39 error 404 You should bug the author to publish it
+39 error 404 It was specified as a dependency of 'SplitZa'
+39 error 404
+39 error 404 Note that you can also install from a
+39 error 404 tarball, folder, or http url, or git url.
+40 error System Windows_NT 6.2.9200
+41 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+42 error cwd C:\Users\Ya\Documents\GitHub\SplitZa
+43 error node -v v0.10.32
+44 error npm -v 1.4.28
+45 error code E404
+46 verbose exit [ 1, true ]

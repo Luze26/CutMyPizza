@@ -1,0 +1,21 @@
+{
+  "name": "SplitZa",
+  "version": "1.0.0",
+  "description": "How to cut your pizza",
+  "keywords": [],
+  "author": {
+    "name": "Luze26",
+    "email": "yann.uzel@gmail.com"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-livereload": "*",
+    "gulp-plumber": "*",
+    "inherits": "*",
+    "ansi-regex": "*",
+    "readable-stream": "*"
+  },
+  "bundleDependencies": [],
+
+  "private": true
+}
